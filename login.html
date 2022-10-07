@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>The DuckSquatArmy</title>
+  <title>Login - The DuckSquatArmy</title>
   <link href="index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -39,10 +39,13 @@
 
   <!--Content starts-->
   <div class="content">
-    <h1>The Team that DuckSquats™️</h1>
-    <br><br>
-    <button onclick="location.replace('login.html')">Login</button>
-    <button onclick="window.open('https://forms.gle/1o13tC8YYvikAsuJ6')">Signup</button>
+    <h1>Login</h1>
+    <form class="login" onsubmit="return false;">
+      <input type="text" placeholder="Username"><br>
+      <input type="text" placeholder="Password"><br>
+      <input type="sumbit" value="Log In">
+    </form>
+    <a href="https://forms.gle/1o13tC8YYvikAsuJ6">Don't have an account?</a>
     </div>
   <!--Content ends-->
   <script src="index.js"></script>

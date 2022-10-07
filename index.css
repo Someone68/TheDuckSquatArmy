@@ -121,3 +121,12 @@ a:hover{
 .center{
   text-align: center;
 }
+
+
+button{
+  color: white;
+  background: #05A6C0;
+  outline: none;
+  padding: 12.5px;
+  font-size: 25px;
+}
