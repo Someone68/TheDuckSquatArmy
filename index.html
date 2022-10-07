@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The DuckSquatArmy</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <!--Hey! This is the original version
+  of Simple CSS Waves-->
+
+  <div class="header">
+
+  <!--Content before waves-->
+  <div class="inner-header flex">
+  <h1 class="title">Welcome to the DuckSquatArmy</h1>
+  </div>
+
+  <!--Waves Container-->
+  <div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+  </g>
+  </svg>
+  </div>
+  <!--Waves end-->
+
+  </div>
+  <!--Header ends-->
+
+  <!--Content starts-->
+  <div class="content">
+    <h1>The Team that DuckSquats™️</h1>
+    <br>
+    <h1>Login</h1>
+    <form class="login" onsubmit="return false;">
+      <input type="text" placeholder="Username"><br>
+      <input type="text" placeholder="Password"><br>
+      <input type="sumbit" value="Log In">
+    </form>
+    <br><h1><a href="https://docs.google.com/forms/d/e/1FAIpQLSf4lFSFA66h2qW_cqxgdktRAZg9HzjRk-sMHUxicSk1v5nxRg/viewform">Sign up</a></h1>
+  </div>
+  <!--Content ends-->
+  <script src="index.js"></script>
+</body>
+</html>
