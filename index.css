@@ -61,7 +61,7 @@ p {
 .content {
   height:20vh;
   margin-left: 50px;
-  text-align: left !important;
+  text-align: left;
   background-color: white;
 }
 
@@ -138,4 +138,8 @@ button:hover{
   color: #05A6C0;
   background: white;
   border: 2px solid #05A6C0;
+}
+
+nav a{
+  margin-right: 25px;
 }
