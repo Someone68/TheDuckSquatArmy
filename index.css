@@ -129,4 +129,13 @@ button{
   outline: none;
   padding: 12.5px;
   font-size: 25px;
+  border: 2px solid #513EB7;
+  cursor: pointer;
+}
+
+
+button:hover{
+  color: #05A6C0;
+  background: white;
+  border: 2px solid #05A6C0;
 }
