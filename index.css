@@ -66,7 +66,7 @@ p {
 }
 
 a{
-  color: #009579;
+  color: #0B9DBF;
   text-decoration: none;
 }
 
@@ -145,6 +145,7 @@ nav a{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 nav{
@@ -158,4 +159,13 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+nav img{
+  display: flex;
+  position: absolute;
+  left: 20px;
+  float: left;
+  width: 50px;
+  cursor: pointer;
 }
